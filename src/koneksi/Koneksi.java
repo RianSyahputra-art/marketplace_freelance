@@ -11,42 +11,60 @@ import javax.swing.JOptionPane;
 
 public class Koneksi {
 
+
     private static Connection conn;
 
 
     public static Connection getConnection(){
 
-        try{
 
-            if(conn == null){
+        if(conn == null){
+
+
+            try{
+
 
                 String url =
                 "jdbc:mysql://localhost:3306/marketplace_freelance";
 
+
                 String user = "root";
-                String pass = "";
+
+                String password = "";
+
 
 
                 conn = DriverManager.getConnection(
                         url,
                         user,
-                        pass
+                        password
                 );
 
-                System.out.println("Database Terhubung");
+
+
+                System.out.println(
+                        "Database Berhasil Terhubung"
+                );
+
+
+            }catch(Exception e){
+
+
+                JOptionPane.showMessageDialog(null,
+                        "Koneksi gagal : "
+                        + e.getMessage()
+                );
+
 
             }
-
-
-        }catch(Exception e){
-
-            JOptionPane.showMessageDialog(null,
-                    "Database gagal : "+e);
 
         }
 
 
         return conn;
-    }
-}
 
+
+    }
+
+
+}
