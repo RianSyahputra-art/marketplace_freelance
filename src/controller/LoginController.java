@@ -4,13 +4,8 @@
  */
 package controller;
 
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
+import java.sql.*;
 import koneksi.Koneksi;
-
 
 
 public class LoginController {
@@ -19,12 +14,14 @@ public class LoginController {
     public int login(String email, String password){
 
 
+        int role = 0;
+
+
         try{
 
 
             Connection conn =
             Koneksi.getConnection();
-
 
 
             String sql =
@@ -37,16 +34,12 @@ public class LoginController {
             """;
 
 
-
             PreparedStatement ps =
             conn.prepareStatement(sql);
 
 
-
             ps.setString(1,email);
-
             ps.setString(2,password);
-
 
 
             ResultSet rs =
@@ -57,10 +50,12 @@ public class LoginController {
             if(rs.next()){
 
 
-                return rs.getInt("id_role");
+                role =
+                rs.getInt("id_role");
 
 
             }
+
 
 
         }catch(Exception e){
@@ -72,7 +67,63 @@ public class LoginController {
         }
 
 
-        return 0;
+        return role;
+
+
+    }
+
+
+
+    public String getNama(String email, String password){
+
+
+        String nama = "";
+
+
+        try{
+
+
+            Connection conn =
+            Koneksi.getConnection();
+
+
+            String sql =
+            "SELECT nama FROM user WHERE email=? AND password=?";
+
+
+            PreparedStatement ps =
+            conn.prepareStatement(sql);
+
+
+            ps.setString(1,email);
+            ps.setString(2,password);
+
+
+            ResultSet rs =
+            ps.executeQuery();
+
+
+
+            if(rs.next()){
+
+
+                nama =
+                rs.getString("nama");
+
+
+            }
+
+
+        }catch(Exception e){
+
+
+            System.out.println(e.getMessage());
+
+        }
+
+
+
+        return nama;
 
 
     }
