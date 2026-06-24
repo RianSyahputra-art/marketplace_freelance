@@ -98,7 +98,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/loupe.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cari jasa"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -112,7 +112,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/receipt_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/clipboard.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Pesanan"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -126,7 +126,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/chat.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Chat"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -140,7 +140,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/star_rate_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/rate.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Rating &amp; Ulasan"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -154,7 +154,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/home.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Beranda"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -171,7 +171,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/user.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Profil"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -185,7 +185,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/logout (1).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Logout"/>
             <Property name="borderPainted" type="boolean" value="false"/>
@@ -199,7 +199,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/klien/payments_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"/>
+              <Image iconType="3" name="/assets/pension.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Transaksi"/>
             <Property name="borderPainted" type="boolean" value="false"/>

@@ -169,7 +169,7 @@ public class DashboardFreelancer extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel2.setText("Aktivitas Terbaru");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 370, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(0, 204, 102));
 
